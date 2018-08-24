@@ -22,3 +22,4 @@ The script will be helpful to get the replication status between two ApacheDS Se
 I have scheduled the script using CronJob. The following command can be used in crontab:
 ### */10 * * * * sh /opt/ldap_replication_script/ldap_replication_script.sh >> /opt/ldap_replication_script/ldap_status 2>&1
 The script wil execute every 10 minutes to check for the replication status. If the user count doesn't match in both master servers, the noification will be sent to TO_EMAIL address.
+![Ldap Replication Alert]("/Users/puc/Desktop/Screen Shot 2018-08-24 at 12.38.26 PM.png.jpg")
