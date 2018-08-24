@@ -15,6 +15,7 @@ The script will be helpful to get the replication status between two ApacheDS Se
 ## Usage
 - Clone the Repo
 - Ensure LDAP Utilities are installed on the server from where the script will be executed since the script will execute ldapsearch on ApacheDS.
+- Ensure aws-cli is installed. AWS-CLI command is used to send the notification.
 - Replace the required variables in the script such as LDAP Master IPs, LDAP Bind Username/Password, FROM/TO Email addresses etc.
 - Execute the script: sh ldap_replication_script.sh
 
